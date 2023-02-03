@@ -1,3 +1,6 @@
+//The purpose of this program is to display digits on a 7-segment display in the simplest way possible,
+//pinMode and digitalWrite
+
 void setup() {
   // Define pins as outputs
   // Each pin is individually defined 
