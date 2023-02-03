@@ -28,56 +28,56 @@ void setup() {
 void loop() {
   //0 
   
-for (int a=0;a<8;a++){//for loop for arrays 
-  digitalWrite(pins[a],zero[a]);
+for (int a=0;a<8;a++){//for loop that works with the arrays. It starts at 0 ang goes to 7, which is the number of pins and segments 
+  digitalWrite(pins[a],zero[a]); //it digital write True or False in the pin. It takes the values from the arrays.
 }
 delay(d);//delay of 1 second 
 
 //1
-for (int a=0;a<8;a++){
-  digitalWrite(pins[a],one[a]);
+for (int a=0;a<8;a++){ //For each number the loop works the same, the only difference is the array that determines if the pin is off or on...
+  digitalWrite(pins[a],one[a]);//In this case the pins will be turning on or off in a way that the display will show 1
 }
 delay(d);
 
 //2
 for (int a=0;a<8;a++){
-  digitalWrite(pins[a],two[a]);
+  digitalWrite(pins[a],two[a]);//Array that will show 2
 }
 delay(d);
 
 //3
 for (int a=0;a<8;a++){
-  digitalWrite(pins[a],three[a]);
+  digitalWrite(pins[a],three[a]); //Array that will show 3
 }
 delay(d);
 //4
 for (int a=0;a<8;a++){
-  digitalWrite(pins[a],four[a]);
+  digitalWrite(pins[a],four[a]);//Array that will show 4
 }
 delay(d);
 //5
 for (int a=0;a<8;a++){
-  digitalWrite(pins[a],five[a]);
+  digitalWrite(pins[a],five[a]);//Array that will show 5
 }
 delay(d);
 //6
 for (int a=0;a<8;a++){
-  digitalWrite(pins[a],six[a]);
+  digitalWrite(pins[a],six[a]);//Array that will show 6
 }
 delay(d);
 //7
 for (int a=0;a<8;a++){
-  digitalWrite(pins[a],seven[a]);
+  digitalWrite(pins[a],seven[a]);//Array that will show 7
 }
 delay(d);
 //8
 for (int a=0;a<8;a++){
-  digitalWrite(pins[a],eight[a]);
+  digitalWrite(pins[a],eight[a]);//Array that will show 8
 }
 delay(d);
 //9
 for (int a=0;a<8;a++){
-  digitalWrite(pins[a],nine[a]);
+  digitalWrite(pins[a],nine[a]);//Array that will show 9
 }
 delay(d);
 
