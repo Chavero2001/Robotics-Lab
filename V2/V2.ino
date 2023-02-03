@@ -1,4 +1,5 @@
-
+//The goal of this program is to display digits on the 7-segment display in the simpliest way possible, using a for loops
+//for loop, pinMode, digitalWrite
 int d=1000; //Creates a variable to control de time of all the delays
 
 void setup() {
